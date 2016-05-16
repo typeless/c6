@@ -1,6 +1,6 @@
 package main
 
-import "github.com/c9s/c6/runtime"
+import "c6/runtime"
 import "github.com/spf13/cobra"
 import "fmt"
 
