@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/c9s/c6/ast"
-	"github.com/c9s/c6/lexer"
-	"github.com/c9s/c6/runtime"
+	"c6/ast"
+	"c6/lexer"
+	"c6/runtime"
 )
 
 var HttpUrlPattern = regexp.MustCompile("^https?://")

@@ -1,7 +1,7 @@
 package runtime
 
 import "testing"
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 import "github.com/stretchr/testify/assert"
 
 func TestStack(t *testing.T) {

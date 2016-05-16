@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/c9s/c6/ast"
+	"c6/ast"
 )
 
 type stateFn func(*Lexer) stateFn

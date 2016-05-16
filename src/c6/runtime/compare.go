@@ -1,6 +1,6 @@
 package runtime
 
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 
 func IsComparable(av ast.Value, bv ast.Value) bool {
 	switch a := av.(type) {

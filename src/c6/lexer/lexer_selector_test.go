@@ -2,7 +2,7 @@ package lexer
 
 import "testing"
 import "github.com/stretchr/testify/assert"
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 
 func TestLexerClassNameSelector(t *testing.T) {
 	l := NewLexerWithString(`.class { }`)

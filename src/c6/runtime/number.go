@@ -1,6 +1,6 @@
 package runtime
 
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 import "fmt"
 
 func NumberComparable(a *ast.Number, b *ast.Number) bool {

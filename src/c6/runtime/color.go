@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/c9s/c6/ast"
+	"c6/ast"
 )
 
 func HexColorAddNumber(c *ast.HexColor, num *ast.Number) *ast.HexColor {

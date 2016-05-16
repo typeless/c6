@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/c9s/c6/ast"
-	"github.com/c9s/c6/runtime"
+	"c6/ast"
+	"c6/runtime"
 )
 
 const (
@@ -46,7 +46,7 @@ type Parser struct {
 	// file content
 	Content string
 
-	// The token input channel, feeded by github.com/c9s/c6/lexer
+	// The token input channel, feeded by c6/lexer
 	Input chan *ast.Token
 
 	// Integer for counting token

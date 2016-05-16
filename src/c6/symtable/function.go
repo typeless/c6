@@ -1,6 +1,6 @@
 package symtable
 
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 
 /*
 FunctionSymTableItem can be anything

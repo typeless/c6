@@ -2,7 +2,7 @@ package lexer
 
 import "unicode"
 import _ "fmt"
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 
 func IsInterpolationStartToken(r rune, r2 rune) bool {
 	return r == '#' && r2 == '{'

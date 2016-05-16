@@ -1,6 +1,6 @@
 package symtable
 
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 
 /*
 This package doesn't use ast.* types because we have to avoid package acyclic

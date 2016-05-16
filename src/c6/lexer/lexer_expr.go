@@ -1,7 +1,7 @@
 package lexer
 
 import "unicode"
-import "github.com/c9s/c6/ast"
+import "c6/ast"
 
 func lexFunctionParams(l *Lexer) stateFn {
 	var r = l.next()

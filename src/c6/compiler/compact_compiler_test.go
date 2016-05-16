@@ -1,8 +1,8 @@
 package compiler
 
 import "testing"
-import "github.com/c9s/c6/runtime"
-import "github.com/c9s/c6/parser"
+import "c6/runtime"
+import "c6/parser"
 import "github.com/stretchr/testify/assert"
 
 func AssertCompile(t *testing.T, code string, expected string) {

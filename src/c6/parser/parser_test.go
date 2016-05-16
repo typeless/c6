@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/c9s/c6/ast"
-	"github.com/c9s/c6/runtime"
+	"c6/ast"
+	"c6/runtime"
 
 	"github.com/stretchr/testify/assert"
 )
